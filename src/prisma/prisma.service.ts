@@ -10,7 +10,7 @@ export class PrismaService extends PrismaClient {
         db: {
           url: config.get('DATABASE_URL'),
         },
-      },       
+      },
     });
   }
 }

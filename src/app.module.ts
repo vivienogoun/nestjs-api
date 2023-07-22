@@ -14,7 +14,8 @@ import { PrismaModule } from './prisma/prisma.module';
     AuthModule,
     UserModule,
     BookmarkModule,
-    PrismaModule],
+    PrismaModule,
+  ],
   controllers: [],
   providers: [],
 })
